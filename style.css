@@ -1,0 +1,159 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nave-icon {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: aqua;
+}
+
+.nave-link {
+    display: flex;
+    align-items: center;
+}
+
+.nave-link li {
+    margin: 0px 30px;
+}
+
+header {
+    background-image: url(images/donation4.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.header-content {
+    text-align: center;
+    margin: 150px;
+    color: aliceblue;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.link-out {
+    height: 7px;
+    width: 156px;
+    border-radius: 4px;
+    background-color: rgb(8, 251, 186);
+    margin: 10px auto;
+}
+
+.cat {
+    background-color: rgb(255, 47, 0);
+    border-radius: 4px;
+    padding: 7px 17px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+section {
+    width: 80%;
+    margin: 90px auto;
+
+}
+
+.title {
+    text-align: center;
+    color: rgb(107, 201, 0);
+    font-size: 30px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row .colon {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+
+}
+
+.row .colon img {
+    margin-top: 50px;
+    size: 50%;
+}
+
+h1 {
+    font-size: 21px;
+    color: crimson;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+p {
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.news .cat {
+    margin-top: 30px;
+}
+
+.news-font {
+    font-size: 53px;
+    text-align: center;
+
+}
+
+.news-fonts {
+    font-size: 16px;
+}
+
+.fast {
+    float: right;
+    font-size: 90px;
+}
+
+.secnd {
+    float: left;
+    font-size: 90px;
+}
+
+.third {
+    font-size: 90px;
+
+    text-align: center;
+    padding: 10px 10px 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+
+
+}
+
+#bg-color {
+    background-color: darkgreen;
+}
